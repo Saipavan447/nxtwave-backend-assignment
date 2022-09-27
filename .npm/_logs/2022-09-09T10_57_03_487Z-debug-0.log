@@ -1,0 +1,72 @@
+0 verbose cli /usr/local/nvm/versions/node/v16.4.0/bin/node /usr/local/nvm/versions/node/v16.4.0/bin/npm
+1 info using npm@8.18.0
+2 info using node@v16.4.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/npmrc Completed in 7ms
+6 timing config:load:builtin Completed in 8ms
+7 timing config:load:cli Completed in 8ms
+8 timing config:load:env Completed in 5ms
+9 timing config:load:file:/home/pavankrishna529/.cache/typescript/3.8/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 14ms
+11 timing config:load:file:/home/pavankrishna529/.npmrc Completed in 3ms
+12 timing config:load:user Completed in 4ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 7ms
+18 timing config:load Completed in 52ms
+19 timing npm:load:configload Completed in 52ms
+20 timing npm:load:mkdirpcache Completed in 7ms
+21 timing npm:load:mkdirplogs Completed in 2ms
+22 verbose title npm install @types/call-bind@ts3.8 @types/debug@ts3.8 @types/extend@ts3.8 @types/fast-text-encoding@ts3.8 @types/function-bind@ts3.8 @types/get-intrinsic@ts3.8 @types/has@ts3.8 @types/has-symbols@ts3.8 @types/json-bigint@ts3.8 @types/jwa@ts3.8 @types/jws@ts3.8 @types/ms@ts3.8 @types/node-fetch@ts3.8 @types/node-forge@ts3.8 @types/object-inspect@ts3.8 @types/qs@ts3.8 @types/tr46@ts3.8 @types/url-template@ts3.8 @types/uuid@ts3.8 @types/webidl-conversions@ts3.8 @types/whatwg-url@ts3.8 @types/yallist@ts3.8
+23 verbose argv "install" "--ignore-scripts" "@types/call-bind@ts3.8" "@types/debug@ts3.8" "@types/extend@ts3.8" "@types/fast-text-encoding@ts3.8" "@types/function-bind@ts3.8" "@types/get-intrinsic@ts3.8" "@types/has@ts3.8" "@types/has-symbols@ts3.8" "@types/json-bigint@ts3.8" "@types/jwa@ts3.8" "@types/jws@ts3.8" "@types/ms@ts3.8" "@types/node-fetch@ts3.8" "@types/node-forge@ts3.8" "@types/object-inspect@ts3.8" "@types/qs@ts3.8" "@types/tr46@ts3.8" "@types/url-template@ts3.8" "@types/uuid@ts3.8" "@types/webidl-conversions@ts3.8" "@types/whatwg-url@ts3.8" "@types/yallist@ts3.8" "--save-dev" "--user-agent" "typesInstaller/3.8.3"
+24 timing npm:load:setTitle Completed in 14ms
+25 timing config:load:flatten Completed in 12ms
+26 timing npm:load:display Completed in 13ms
+27 verbose logfile logs-max:10 dir:/home/pavankrishna529/.npm/_logs
+28 verbose logfile /home/pavankrishna529/.npm/_logs/2022-09-09T10_57_03_487Z-debug-0.log
+29 timing npm:load:logFile Completed in 17ms
+30 timing npm:load:timers Completed in 1ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 107ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 18ms
+37 timing arborist:ctor Completed in 1ms
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fwhatwg-url 243ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fdebug 262ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 263ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fget-intrinsic 277ms (cache revalidated)
+42 timing idealTree Completed in 306ms
+43 timing command:install Completed in 317ms
+44 verbose type tag
+45 verbose stack @types/get-intrinsic: No matching version found for @types/get-intrinsic@ts3.8.
+45 verbose stack     at module.exports (/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:209:23)
+45 verbose stack     at RegistryFetcher.manifest (/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/node_modules/pacote/lib/registry.js:125:22)
+45 verbose stack     at async Arborist.[retrieveSpecName] (/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:570:18)
+45 verbose stack     at async /usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:542:20
+45 verbose stack     at async Promise.all (index 5)
+45 verbose stack     at async Arborist.[applyUserRequestsToNode] (/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:510:7)
+45 verbose stack     at async Arborist.[applyUserRequests] (/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:447:7)
+45 verbose stack     at async Arborist.buildIdealTree (/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:217:7)
+45 verbose stack     at async Promise.all (index 1)
+45 verbose stack     at async Arborist.reify (/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:154:5)
+46 verbose cwd /home/pavankrishna529/.cache/typescript/3.8
+47 verbose Linux 5.10.133+
+48 verbose node v16.4.0
+49 verbose npm  v8.18.0
+50 error code ETARGET
+51 error notarget No matching version found for @types/get-intrinsic@ts3.8.
+52 error notarget In most cases you or one of your dependencies are requesting
+52 error notarget a package version that doesn't exist.
+53 verbose exit 1
+54 timing npm Completed in 789ms
+55 verbose unfinished npm timer reify 1662721023952
+56 verbose unfinished npm timer reify:loadTrees 1662721023958
+57 verbose unfinished npm timer idealTree:userRequests 1662721023979
+58 verbose code 1
+59 error A complete log of this run can be found in:
+59 error     /home/pavankrishna529/.npm/_logs/2022-09-09T10_57_03_487Z-debug-0.log

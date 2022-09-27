@@ -38,3 +38,33 @@ git branch -m <nxtwaveassignment>
 git branch -m <nxtwave assignment>
 git init
 git remote add origin https://github.com/Saipavan447/nxtwave-backend-assignment.git
+git add -A
+git commit -m nxtwave assignment
+git commit -m "commit message"
+git branch -M main
+git push -u origin main
+npm start
+npm install
+npm install googleapis
+$ npm install @googleapis/docs
+npm install
+npm start
+npm run
+npm start
+npm install react-router-dom
+mkdir src/components/Dashboard
+mkdir src/components/Preferences
+mkdir src/components/Dashboard
+mkdir src/components/Preferences
+nano src/components/Dashboard/Dashboard.js
+nano src/components/Preferences/Preferences.js
+nano src/components/App/App.js
+nano src/components/App/App.css
+npm run
+npm starts
+npm start
+/usr/bin/python /home/pavankrishna529/program-1.py
+git config --global user.email "pavankrishna529@gmail.com"
+git config --global user.name "Saipavan447"
+git init
+git remote add origin https://github.com/Saipavan447/python-assignment.git

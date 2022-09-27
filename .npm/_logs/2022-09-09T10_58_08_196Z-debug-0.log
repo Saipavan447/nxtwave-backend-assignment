@@ -1,0 +1,161 @@
+0 verbose cli /usr/local/nvm/versions/node/v16.4.0/bin/node /usr/local/nvm/versions/node/v16.4.0/bin/npm
+1 info using npm@8.18.0
+2 info using node@v16.4.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/pavankrishna529/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 10ms
+18 timing npm:load:configload Completed in 10ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install react-router-dom
+22 verbose argv "install" "react-router-dom"
+23 timing npm:load:setTitle Completed in 2ms
+24 timing config:load:flatten Completed in 3ms
+25 timing npm:load:display Completed in 5ms
+26 verbose logfile logs-max:10 dir:/home/pavankrishna529/.npm/_logs
+27 verbose logfile /home/pavankrishna529/.npm/_logs/2022-09-09T10_58_08_196Z-debug-0.log
+28 timing npm:load:logFile Completed in 6ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 27ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile start cleaning logs, removing 1 files
+34 silly logfile done cleaning log files
+35 timing arborist:ctor Completed in 1ms
+36 timing idealTree:init Completed in 14ms
+37 timing idealTree:userRequests Completed in 2ms
+38 silly idealTree buildDeps
+39 silly fetch manifest react-router-dom@*
+40 http fetch GET 200 https://registry.npmjs.org/react-router-dom 137ms (cache miss)
+41 silly fetch manifest react@>=16.8
+42 http fetch GET 200 https://registry.npmjs.org/react 66ms (cache miss)
+43 silly fetch manifest react-dom@>=16.8
+44 http fetch GET 200 https://registry.npmjs.org/react-dom 97ms (cache miss)
+45 silly placeDep ROOT react-router-dom@6.3.0 OK for:  want: *
+46 silly placeDep ROOT react@18.2.0 OK for: react-router-dom@6.3.0 want: >=16.8
+47 silly placeDep ROOT react-dom@18.2.0 OK for: react-router-dom@6.3.0 want: >=16.8
+48 silly fetch manifest react-router@6.3.0
+49 silly fetch manifest history@^5.2.0
+50 silly fetch manifest loose-envify@^1.1.0
+51 silly fetch manifest scheduler@^0.23.0
+52 http fetch GET 200 https://registry.npmjs.org/loose-envify 128ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/react-router 140ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/history 152ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/scheduler 169ms (cache miss)
+56 timing idealTree:#root Completed in 530ms
+57 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.2.0 want: ^1.1.0
+58 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+59 http fetch GET 200 https://registry.npmjs.org/js-tokens 54ms (cache miss)
+60 timing idealTree:node_modules/react Completed in 63ms
+61 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+62 timing idealTree:node_modules/loose-envify Completed in 2ms
+63 timing idealTree:node_modules/js-tokens Completed in 0ms
+64 silly placeDep ROOT scheduler@0.23.0 OK for: react-dom@18.2.0 want: ^0.23.0
+65 timing idealTree:node_modules/react-dom Completed in 2ms
+66 silly placeDep ROOT history@5.3.0 OK for: react-router-dom@6.3.0 want: ^5.2.0
+67 silly placeDep ROOT react-router@6.3.0 OK for: react-router-dom@6.3.0 want: 6.3.0
+68 silly fetch manifest @babel/runtime@^7.7.6
+69 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 56ms (cache miss)
+70 timing idealTree:node_modules/react-router-dom Completed in 63ms
+71 silly placeDep ROOT @babel/runtime@7.19.0 OK for: history@5.3.0 want: ^7.7.6
+72 silly fetch manifest regenerator-runtime@^0.13.4
+73 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 26ms (cache miss)
+74 timing idealTree:node_modules/history Completed in 29ms
+75 silly placeDep ROOT regenerator-runtime@0.13.9 OK for: @babel/runtime@7.19.0 want: ^0.13.4
+76 timing idealTree:node_modules/@babel/runtime Completed in 2ms
+77 timing idealTree:node_modules/react-router Completed in 0ms
+78 timing idealTree:node_modules/regenerator-runtime Completed in 0ms
+79 timing idealTree:node_modules/scheduler Completed in 0ms
+80 timing idealTree:buildDeps Completed in 695ms
+81 timing idealTree:fixDepFlags Completed in 0ms
+82 timing idealTree Completed in 714ms
+83 timing reify:loadTrees Completed in 715ms
+84 timing reify:diffTrees Completed in 1ms
+85 silly reify moves {}
+86 timing reify:retireShallow Completed in 2ms
+87 timing reify:createSparse Completed in 4ms
+88 timing reify:loadBundles Completed in 0ms
+89 silly audit bulk request {
+89 silly audit   'react-router-dom': [ '6.3.0' ],
+89 silly audit   react: [ '18.2.0' ],
+89 silly audit   'react-dom': [ '18.2.0' ],
+89 silly audit   'loose-envify': [ '1.4.0' ],
+89 silly audit   'js-tokens': [ '4.0.0' ],
+89 silly audit   scheduler: [ '0.23.0' ],
+89 silly audit   history: [ '5.3.0' ],
+89 silly audit   'react-router': [ '6.3.0' ],
+89 silly audit   '@babel/runtime': [ '7.19.0' ],
+89 silly audit   'regenerator-runtime': [ '0.13.9' ]
+89 silly audit }
+90 silly tarball no local data for regenerator-runtime@https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz. Extracting by manifest.
+91 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.19.0.tgz. Extracting by manifest.
+92 silly tarball no local data for react-router@https://registry.npmjs.org/react-router/-/react-router-6.3.0.tgz. Extracting by manifest.
+93 silly tarball no local data for history@https://registry.npmjs.org/history/-/history-5.3.0.tgz. Extracting by manifest.
+94 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz. Extracting by manifest.
+95 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+96 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+97 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz. Extracting by manifest.
+98 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-18.2.0.tgz. Extracting by manifest.
+99 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.3.0.tgz. Extracting by manifest.
+100 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 255ms
+101 timing auditReport:getReport Completed in 258ms
+102 silly audit report {}
+103 timing auditReport:init Completed in 0ms
+104 timing reify:audit Completed in 259ms
+105 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 235ms (cache miss)
+106 timing reifyNode:node_modules/loose-envify Completed in 262ms
+107 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 244ms (cache miss)
+108 timing reifyNode:node_modules/js-tokens Completed in 269ms
+109 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz 261ms (cache miss)
+110 timing reifyNode:node_modules/regenerator-runtime Completed in 279ms
+111 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz 329ms (cache miss)
+112 timing reifyNode:node_modules/scheduler Completed in 352ms
+113 http fetch GET 200 https://registry.npmjs.org/history/-/history-5.3.0.tgz 346ms (cache miss)
+114 timing reifyNode:node_modules/history Completed in 368ms
+115 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.3.0.tgz 346ms (cache miss)
+116 timing reifyNode:node_modules/react-router-dom Completed in 377ms
+117 http fetch GET 200 https://registry.npmjs.org/react-router/-/react-router-6.3.0.tgz 363ms (cache miss)
+118 timing reifyNode:node_modules/react-router Completed in 385ms
+119 http fetch GET 200 https://registry.npmjs.org/react/-/react-18.2.0.tgz 375ms (cache miss)
+120 timing reifyNode:node_modules/react Completed in 404ms
+121 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.19.0.tgz 485ms (cache miss)
+122 timing reifyNode:node_modules/@babel/runtime Completed in 505ms
+123 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz 543ms (cache miss)
+124 timing reifyNode:node_modules/react-dom Completed in 570ms
+125 timing reify:unpack Completed in 571ms
+126 timing reify:unretire Completed in 0ms
+127 timing build:queue Completed in 1ms
+128 timing build:link:node_modules/loose-envify Completed in 4ms
+129 timing build:link Completed in 4ms
+130 timing build:deps Completed in 6ms
+131 timing build Completed in 6ms
+132 timing reify:build Completed in 6ms
+133 timing reify:trash Completed in 0ms
+134 timing reify:save Completed in 16ms
+135 timing reify Completed in 1340ms
+136 silly ADD node_modules/regenerator-runtime
+137 silly ADD node_modules/@babel/runtime
+138 silly ADD node_modules/react-router
+139 silly ADD node_modules/history
+140 silly ADD node_modules/scheduler
+141 silly ADD node_modules/js-tokens
+142 silly ADD node_modules/loose-envify
+143 silly ADD node_modules/react-dom
+144 silly ADD node_modules/react
+145 silly ADD node_modules/react-router-dom
+146 timing command:install Completed in 1349ms
+147 verbose exit 0
+148 timing npm Completed in 1502ms
+149 info ok

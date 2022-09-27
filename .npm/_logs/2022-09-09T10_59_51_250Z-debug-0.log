@@ -1,0 +1,125 @@
+0 verbose cli /usr/local/nvm/versions/node/v16.4.0/bin/node /usr/local/nvm/versions/node/v16.4.0/bin/npm
+1 info using npm@8.18.0
+2 info using node@v16.4.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/pavankrishna529/.cache/typescript/3.8/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:/home/pavankrishna529/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/local/nvm/versions/node/v16.4.0/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 13ms
+19 timing npm:load:configload Completed in 13ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install @types/react@ts3.8 @types/react-dom@ts3.8 @types/regenerator-runtime@ts3.8 @types/scheduler@ts3.8
+23 verbose argv "install" "--ignore-scripts" "@types/react@ts3.8" "@types/react-dom@ts3.8" "@types/regenerator-runtime@ts3.8" "@types/scheduler@ts3.8" "--save-dev" "--user-agent" "typesInstaller/3.8.3"
+24 timing npm:load:setTitle Completed in 2ms
+25 timing config:load:flatten Completed in 3ms
+26 timing npm:load:display Completed in 4ms
+27 verbose logfile logs-max:10 dir:/home/pavankrishna529/.npm/_logs
+28 verbose logfile /home/pavankrishna529/.npm/_logs/2022-09-09T10_59_51_250Z-debug-0.log
+29 timing npm:load:logFile Completed in 6ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 28ms
+33 timing arborist:ctor Completed in 3ms
+34 silly logfile start cleaning logs, removing 1 files
+35 silly logfile done cleaning log files
+36 timing idealTree:init Completed in 18ms
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fregenerator-runtime 136ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fscheduler 142ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 155ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2freact 167ms (cache miss)
+42 timing idealTree:userRequests Completed in 178ms
+43 silly idealTree buildDeps
+44 silly fetch manifest @types/react@17.0.39
+45 silly fetch manifest @types/react-dom@17.0.11
+46 silly fetch manifest @types/regenerator-runtime@0.13.1
+47 silly fetch manifest @types/scheduler@0.16.2
+48 silly placeDep ROOT @types/react@17.0.39 OK for:  want: 17.0.39
+49 silly placeDep ROOT @types/react-dom@17.0.11 OK for:  want: 17.0.11
+50 silly placeDep ROOT @types/regenerator-runtime@0.13.1 OK for:  want: 0.13.1
+51 silly placeDep ROOT @types/scheduler@0.16.2 OK for:  want: 0.16.2
+52 silly fetch manifest @types/prop-types@*
+53 silly fetch manifest csstype@^3.0.2
+54 http fetch GET 200 https://registry.npmjs.org/csstype 35ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 46ms (cache miss)
+56 timing idealTree:#root Completed in 62ms
+57 silly placeDep ROOT @types/prop-types@15.7.5 OK for: @types/react@17.0.39 want: *
+58 silly placeDep ROOT csstype@3.1.0 OK for: @types/react@17.0.39 want: ^3.0.2
+59 timing idealTree:node_modules/@types/react Completed in 4ms
+60 timing idealTree:node_modules/@types/prop-types Completed in 0ms
+61 timing idealTree:node_modules/@types/react-dom Completed in 0ms
+62 timing idealTree:node_modules/@types/regenerator-runtime Completed in 0ms
+63 timing idealTree:node_modules/@types/scheduler Completed in 0ms
+64 timing idealTree:node_modules/csstype Completed in 0ms
+65 timing idealTree:buildDeps Completed in 68ms
+66 timing idealTree:fixDepFlags Completed in 1ms
+67 timing idealTree Completed in 267ms
+68 timing reify:loadTrees Completed in 268ms
+69 timing reify:diffTrees Completed in 2ms
+70 silly reify moves {}
+71 timing reify:retireShallow Completed in 2ms
+72 timing reify:createSparse Completed in 3ms
+73 timing reify:loadBundles Completed in 0ms
+74 silly audit bulk request {
+74 silly audit   'types-registry': [ '0.1.608' ],
+74 silly audit   '@types/react': [ '17.0.39' ],
+74 silly audit   '@types/react-dom': [ '17.0.11' ],
+74 silly audit   '@types/regenerator-runtime': [ '0.13.1' ],
+74 silly audit   '@types/scheduler': [ '0.16.2' ],
+74 silly audit   '@types/prop-types': [ '15.7.5' ],
+74 silly audit   csstype: [ '3.1.0' ]
+74 silly audit }
+75 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.0.tgz. Extracting by manifest.
+76 silly tarball no local data for @types/prop-types@https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz. Extracting by manifest.
+77 silly tarball no local data for @types/scheduler@https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz. Extracting by manifest.
+78 silly tarball no local data for @types/regenerator-runtime@https://registry.npmjs.org/@types/regenerator-runtime/-/regenerator-runtime-0.13.1.tgz. Extracting by manifest.
+79 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.11.tgz. Extracting by manifest.
+80 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-17.0.39.tgz. Extracting by manifest.
+81 http fetch GET 200 https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz 105ms (cache miss)
+82 timing reifyNode:node_modules/@types/prop-types Completed in 129ms
+83 http fetch GET 200 https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz 105ms (cache miss)
+84 timing reifyNode:node_modules/@types/scheduler Completed in 131ms
+85 http fetch GET 200 https://registry.npmjs.org/@types/regenerator-runtime/-/regenerator-runtime-0.13.1.tgz 105ms (cache miss)
+86 timing reifyNode:node_modules/@types/regenerator-runtime Completed in 133ms
+87 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.1.0.tgz 129ms (cache miss)
+88 timing reifyNode:node_modules/csstype Completed in 150ms
+89 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 268ms
+90 timing auditReport:getReport Completed in 272ms
+91 silly audit report {}
+92 timing auditReport:init Completed in 0ms
+93 timing reify:audit Completed in 273ms
+94 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.11.tgz 303ms (cache miss)
+95 timing reifyNode:node_modules/@types/react-dom Completed in 333ms
+96 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-17.0.39.tgz 923ms (cache miss)
+97 timing reifyNode:node_modules/@types/react Completed in 956ms
+98 timing reify:unpack Completed in 957ms
+99 timing reify:unretire Completed in 1ms
+100 timing build:queue Completed in 1ms
+101 timing build:deps Completed in 1ms
+102 timing build Completed in 2ms
+103 timing reify:build Completed in 3ms
+104 timing reify:trash Completed in 0ms
+105 timing reify:save Completed in 17ms
+106 timing reify Completed in 1288ms
+107 silly ADD node_modules/csstype
+108 silly ADD node_modules/@types/prop-types
+109 silly ADD node_modules/@types/scheduler
+110 silly ADD node_modules/@types/regenerator-runtime
+111 silly ADD node_modules/@types/react-dom
+112 silly ADD node_modules/@types/react
+113 timing command:install Completed in 1302ms
+114 verbose exit 0
+115 timing npm Completed in 1452ms
+116 info ok

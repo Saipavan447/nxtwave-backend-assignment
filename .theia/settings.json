@@ -1,5 +1,11 @@
 {
     "redhat.telemetry.enabled": false,
     "csharp.suppressDotnetRestoreNotification": true,
-    "workbench.colorTheme": "dark"
+    "workbench.colorTheme": "dark",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
 }
